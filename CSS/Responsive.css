@@ -11,6 +11,17 @@
     .navi{
       display: none;
     }
+    
+    ul li {
+      list-style: none;
+    }
+    
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      margin-top: 20px;
+    }
     .off-screen-menu{
       display: block;
       background-color: #D870DB;
@@ -20,12 +31,11 @@
       position: fixed;
       top: 0;
       right: -450px;
-      text-align: center;
       font-size: 3rem;
-      transition: .3s ease;
+      transition: .5s ease;
     }
     .off-screen-menu.active{
-      right: 0;
+      left: 10px;
     }
     .mobile-nav{
       background-color: #D870DB;
