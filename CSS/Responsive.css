@@ -1,3 +1,18 @@
+
+  .off-screen-menu{
+
+        display: none;
+
+    }
+
+    .ham-menu{
+        display: none;
+    }
+
+    .mobile-nav{
+      display: none;
+    }
+
 @media (max-width:600px){
 
   
