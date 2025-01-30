@@ -31,13 +31,15 @@ h1 {
 
 .navi {
     width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    width: 700px;
 }
 
 ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 700px;
+  
 }
 
 li {
