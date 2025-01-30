@@ -10,7 +10,11 @@ html {
   }
 
   
+
+
+
 .hero-container {
+
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -112,15 +116,16 @@ a{
 }
 
 .profile-container {
+
     color: #333;
-    height: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url('./background 02.jpg');
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .profile-content {
