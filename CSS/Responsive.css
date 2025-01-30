@@ -20,10 +20,6 @@
       position: fixed;
       top: 0;
       right: -450px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
       text-align: center;
       font-size: 3rem;
       transition: .3s ease;
@@ -34,7 +30,6 @@
     .mobile-nav{
       background-color: #D870DB;
       padding:1rem;
-      display: flex;
       display: block;
       
     }
