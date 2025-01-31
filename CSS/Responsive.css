@@ -15,7 +15,7 @@
 
 @media (max-width:600px){
 
-  ul li {
+ .nav-menu ul li {
 
       display: flex;
 
