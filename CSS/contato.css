@@ -44,14 +44,19 @@ nav {
     width: 50%;
     
 }
-navi{
-  display: flex;
 
+    
+
+.navi ul {
+
+    width: 50%;
+    display: flex;
     justify-content: space-between;
 
     list-style: none;
     width: 700px;
 }
+
 li {
     font-family: 'Oswald', sans-serif;
     font-size: 21px;
