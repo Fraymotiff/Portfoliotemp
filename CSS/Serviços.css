@@ -32,9 +32,15 @@ nav {
     width: 50%;
 }
 
-ul {
+
+.navi ul {
+
+
+
+    width: 50%;
     display: flex;
     justify-content: space-between;
+
     list-style: none;
     width: 700px;
 }
