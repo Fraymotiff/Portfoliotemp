@@ -50,10 +50,10 @@
       top: 0;
       right: -450px;
       font-size: 3rem;
-      transition: .5s ease;
+      transition: .8s ease;
     }
     .off-screen-menu.active{
-      left: 10px;
+      right: 0px;
     }
     .mobile-nav{
       background-color: #D870DB;
