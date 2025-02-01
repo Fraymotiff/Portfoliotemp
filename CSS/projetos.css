@@ -65,27 +65,7 @@ a{
 
 
 
-footer {
-    height:1.5em;
-    display:flex;
-    padding:0px 0px 2em;
-    
-    flex-direction:column;
-    font-size: 20px;
-    align-items:center;
-    justify-content: space-around;
-    background-color: #D870DB;
-    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
 
-    padding:0;
-    margin:0;
-
-    position: relative;
-    bottom: 0; 
-     left: 0;
-     right: 0;
-      margin:0;
-    color: #fff;}
 
 
 
@@ -203,3 +183,17 @@ padding: 0 0 20px;
     box-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
     margin: 20px 0;
 }
+
+footer {
+
+    height: 2em;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #D870DB;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    
+    font-family: 'Oswald', sans-serif;
+    color: #fff;}
