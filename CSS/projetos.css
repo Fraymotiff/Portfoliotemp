@@ -99,9 +99,17 @@ footer {
 
     .sites1{
       
-            display: flex;
+          /*  display: flex;
             justify-content: space-between;
             margin:0rem;
+            */
+            display: grid;
+
+  justify-items: center;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  gap: 16px;
             
             
         }
