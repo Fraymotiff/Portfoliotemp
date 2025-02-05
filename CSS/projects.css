@@ -9,3 +9,53 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+
+.navi ul {
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul {
+  
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    color: #fff;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #D870DB;
+}
+
+a{
+    text-decoration: none;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+}
+
+
+
+
+
+
+
+footer {
+
+    height: 2em;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #D870DB;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    
+    font-family: 'Oswald', sans-serif;
+    color: #fff;}
