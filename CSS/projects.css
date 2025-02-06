@@ -61,6 +61,17 @@ h1 {
 }
 
 
+.sites{
+  display: grid;
+
+  justify-items: center;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
 .sites h3 {
 
     font-family: 'Oswald', sans-serif;
