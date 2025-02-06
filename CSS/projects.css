@@ -60,6 +60,17 @@ h1 {
 
 }
 
+
+.sites h3 {
+
+    font-family: 'Oswald', sans-serif;
+
+    color: #fff;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    margin-left: 5em;
+    width: 50%;
+}
+
 footer{
     height: 2em;
     display:flex;
@@ -71,3 +82,5 @@ footer{
     
     font-family: 'Oswald', sans-serif;
     color: #fff;}
+
+  
