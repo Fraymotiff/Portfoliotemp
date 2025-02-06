@@ -103,11 +103,9 @@ footer{
     align-items:center;
     background-color: #D870DB;
     text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
-
-    
     font-family: 'Oswald', sans-serif;
     color: #fff;
-  /* position: absolute; */
+  position: absolute; 
   bottom:0;
   width: 100%;
 }
