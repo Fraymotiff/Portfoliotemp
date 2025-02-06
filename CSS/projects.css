@@ -63,14 +63,12 @@ h1 {
 
 .sites{
   display: grid;
-
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
 
   grid-template-columns: 1fr 1fr 1fr ;
   grid-gap: 16px;
   gap: 16px;
-  margin-bottom: 16px;
-  padding: 0 10px 0 ;
 }
 
 .sites h3 {
