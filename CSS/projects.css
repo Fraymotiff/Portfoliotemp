@@ -82,6 +82,17 @@ h1 {
     width: 50%;
 }
 
+ .thumb{
+
+    box-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+
+    width: 25em;
+    border-radius: 20px;
+     transition: .5s;
+
+  }
+  .thumb:hover{
+    transform: scale(1.1);
 footer{
     height: 2em;
     display:flex;
