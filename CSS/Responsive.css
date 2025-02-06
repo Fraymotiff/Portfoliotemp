@@ -87,7 +87,7 @@
       }
       .ham-menu.active span:nth-child(1){
         top:50%;
-        transform: translate(-50%, -50%) rotate (45deg);
+        transform: translate(-50%, -50%) rotate(45deg);
       }
       
     .ham-menu.active span:nth-child(2){
@@ -95,7 +95,7 @@
 }
     .ham-menu.active span:nth-child(3){
       top: 50%;
-      transform: translate(-50%, -50%) rotate (-45deg);
+      transform: translate(-50%, -50%) rotate(-45deg);
       
     }
     
