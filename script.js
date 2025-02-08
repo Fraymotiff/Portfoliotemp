@@ -5,11 +5,18 @@ const offScreenMenu = document.querySelector('.off-screen-menu');
 hamMenu.addEventListener('click', () => {
   hamMenu.classList.toggle('active');
   offScreenMenu.classList.toggle('active');
+  //test2 
+  handleClickOutside (offScreenMenu, () => {
+  div.classList.remove("active");
+
+});
 });
 
+
+
 // test 
-document.addEventListener('click', e => {
-  if(!offScreenMenu.contains(e.target) && e.target !== offScreenMenu) {
-  offScreenMenu.classList.add('active')
-  }
-})
+//document.addEventListener('click', e => {
+  //if(!offScreenMenu.contains(e.target) && e.target !== offScreenMenu) {
+  //offScreenMenu.classList.add('active')
+//  }
+//})
