@@ -10,7 +10,6 @@ hamMenu.addEventListener('click', () => {
   div.classList.remove("active");
 
 });
-});
 
 
 
