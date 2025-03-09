@@ -33,14 +33,21 @@ nav {
     width: 50%;
 }
 
+.navi{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 
+    width: 700px;
+
+}
 
 .navi ul {
     width: 50%;
     display: flex;
     justify-content: space-between;
-
     list-style: none;
+    width: 700px;
 }
 
 li {
