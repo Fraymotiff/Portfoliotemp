@@ -177,10 +177,26 @@ a{
     margin: 20px 0;
 }
 
+
 .icons-container {
     display: flex;
     width: 100%;
+    font-size: 25px;
     justify-content: space-around;
+
+
+}
+
+.icons-container a :hover{
+    color:  #c324c9;
+    transition: 1s ease;
+    cursor: pointer;
+
+}
+.icons-container a {
+    text-decoration: none;
+    color: #333;
+    text-shadow:none;
 }
 
 .icon-item {
