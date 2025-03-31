@@ -36,23 +36,22 @@ h1 {
 }
 
 ul {
-
 }
 
 li {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 21px;
   color: #fff;
   cursor: pointer;
 }
 
 li:hover {
-  color: #D870DB;
+  color: #d870db;
 }
 
-a{
+a {
   text-decoration: none;
-  text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 5px #ff0000, 0 0 5px #0000ff;
 }
 
 .arrows {
