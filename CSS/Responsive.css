@@ -6,12 +6,89 @@
   display: none;
 }
 
-.mobile-nav {
+.overlay {
+  background: rgba(80, 9, 47, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 9;
   display: none;
 }
 
 @media (max-width: 768px) {
   
+  /* Responsive navbar and effects */
+
+  .overlay {
+    display: none;
+    z-index: 0;
+  }
+  .overlay.active {
+    display: block;
+  }
+
+  
+  .ham-menu {
+    display: block;
+    position: relative;
+    z-index: 9;
+  }
+  .voodaserra {
+    display: none;
+  }
+
+  .logotype {
+    display: none;
+  }
+
+  .logo_mobile_nav {
+    width: 5rem;
+    display: block;
+  }
+
+  .off-screen-menu {
+    background-color: #ffff;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    max-width: 250px;
+    position: fixed;
+    z-index: 2;
+    font-family: "Prompt", sans-serif;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    gap: 5rem;
+    font-size: 2rem;
+    transition: 0.3s ease;
+    display: block;
+  }
+
+  .off-screen-menu.active {
+    right: 0;
+  }
+
+  .off-screen-menu a {
+    color: var(--navy);
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+    font-size: 3rem;
+  }
+
+  #open-sidebar-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-color: rgb(241, 241, 241) rgb(241, 241, 241) var(--navy);
+    border-width: 5px;
+    border-style: solid;
+    z-index: 9;
+  }
+  
+    /* Responsive navbar and effects end  */
   
   h1 {
     text-align: center;

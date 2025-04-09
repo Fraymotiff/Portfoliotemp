@@ -1,25 +1,23 @@
-const hamMenu = document.querySelector('.ham-menu');
+const hamMenu = document.querySelector(".ham-menu");
 
-const offScreenMenu = document.querySelector('.off-screen-menu');
+const offScreenMenu = document.querySelector(".off-screen-menu");
+const darkOverlay = document.querySelector(".overlay");
 
-hamMenu.addEventListener('click', () => {
-  hamMenu.classList.toggle('active');
-  offScreenMenu.classList.toggle('active');
+// open off screen menu and make menu close upon clicking overlay
 
-
-
+hamMenu.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
+  darkOverlay.classList.toggle("active");
 });
 
-  //test2 
+// toggles overlay
 
-  //handleClickOutside (offScreenMenu, () => {
+darkOverlay.addEventListener("click", () => {
+  hamMenu.classList.toggle("active");
+  offScreenMenu.classList.toggle("active");
+});
 
- //div.classList.remove("active");
+if (offScreenMenu.contains("active")) {
+  darkOverlay.classList.remove("active");
 }
-
-// test 
-//document.addEventListener('click', e => {
-  //if(!offScreenMenu.contains(e.target) && e.target !== offScreenMenu) {
-  //offScreenMenu.classList.add('active')
-//  }
-//})
