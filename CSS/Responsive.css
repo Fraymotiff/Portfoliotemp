@@ -112,19 +112,32 @@
 
 /* sobre */
 
+.profile-card-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  height: 500px;
+  background: #fff;
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
 
-
-.name-text-about {
+.name-text-about  span {
   font-family: "Oswald", sans-serif;
   font-size: 21px;
-  margin-top: 15px;
+ 
+ 
 }
 
 .profile-text-about{
   font-family: "Oswald", sans-serif;
   font-size: 17px;
   text-align: center;
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   
 
 }
@@ -132,20 +145,17 @@
   /*projetos */
 
   .sites {
-    display: grid;
-
-    justify-items: center;
-
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
   }
-
   .thumb {
     box-shadow: 0 0 5px #ff0000, 0 0 5px #0000ff;
     width: 15em;
     border-radius: 20px;
-    transition: 0.5s;
-    margin: 40px;
+
+    margin:0;
   }
 
   footer {
