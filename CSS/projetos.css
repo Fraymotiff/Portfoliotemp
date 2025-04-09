@@ -125,21 +125,4 @@ footer {
   color: #fff;
 }
 
-@media (max-width: 768px) {
-  .sites {
-    display: grid;
 
-    justify-items: center;
-
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-  }
-
-  .thumb {
-    box-shadow: 0 0 5px #ff0000, 0 0 5px #0000ff;
-    width: 15em;
-    border-radius: 20px;
-    transition: 0.5s;
-    margin: 40px;
-  }
-}

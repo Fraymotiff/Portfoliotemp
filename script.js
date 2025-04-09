@@ -14,7 +14,7 @@ hamMenu.addEventListener("click", () => {
 // toggles overlay
 
 darkOverlay.addEventListener("click", () => {
-  hamMenu.classList.toggle("active");
+  hamMenu.classList.toggle(".active");
   offScreenMenu.classList.toggle("active");
 });
 

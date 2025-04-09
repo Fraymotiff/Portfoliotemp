@@ -14,7 +14,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   
   /* Responsive navbar and effects */
 
@@ -26,15 +26,13 @@
     display: block;
   }
 
-  
+
   .ham-menu {
     display: block;
     position: relative;
     z-index: 9;
   }
-  .voodaserra {
-    display: none;
-  }
+
 
   .logotype {
     display: none;
@@ -46,8 +44,7 @@
   }
 
   .off-screen-menu {
-    background-color: #ffff;
-    font-weight: bold;
+    background-color:  #bd56a0;
     height: 100%;
     width: 100%;
     max-width: 250px;
@@ -70,7 +67,6 @@
   }
 
   .off-screen-menu a {
-    color: var(--navy);
     text-decoration: none;
     list-style: none;
     margin: 1rem;
@@ -79,12 +75,15 @@
 
   #open-sidebar-button {
     display: flex;
+   background-color: rgb(255, 255, 255);
+   border: none;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    border-color: rgb(241, 241, 241) rgb(241, 241, 241) var(--navy);
+    /*border-color: rgb(255, 255, 255) rgb(255, 255, 255) var(--navy);
     border-width: 5px;
     border-style: solid;
+    */
     z-index: 9;
   }
   
@@ -109,4 +108,57 @@
   nav {
     display: none;
   }
+
+
+/* sobre */
+
+
+
+.name-text-about {
+  font-family: "Oswald", sans-serif;
+  font-size: 21px;
+  margin-top: 15px;
 }
+
+.profile-text-about{
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  width: 80%;
+  
+
+}
+
+  /*projetos */
+
+  .sites {
+    display: grid;
+
+    justify-items: center;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .thumb {
+    box-shadow: 0 0 5px #ff0000, 0 0 5px #0000ff;
+    width: 15em;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin: 40px;
+  }
+
+  footer {
+    width: 100%;
+    height: 3em;
+  }
+
+  footer span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+}
+
+

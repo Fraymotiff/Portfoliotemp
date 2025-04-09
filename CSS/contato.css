@@ -296,7 +296,7 @@ form {
     border-radius: 8px;
    }
 
-   Button{
+.submitmsg{
   
     width: 80%;
     border:none;
@@ -377,7 +377,7 @@ footer {
         max-width: 22em;
         height: 300px;
        }
-       Button{
+       .submitmsg{
       
         width: 80%;
         border:none;
@@ -392,7 +392,7 @@ footer {
         margin-top: 1em;
         transition: 1s ease;
        }
-       button:hover{
+       .submitmsg:hover{
         background-color:  rgb(196, 35, 131);
         color: #fff;
        }
