@@ -13,7 +13,43 @@
   z-index: 9;
   display: none;
 }
+@media (max-width: 1024px){
 
+  .servicos-title{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .form_content{
+    width: 70%;
+  }
+  .content-container-contact {
+    height: 100vh;
+
+}
+
+  .profile-container-contact{
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50%;
+margin-top: 250px;
+
+  }
+  .profile-image-contact {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #D870DB;
+}
+
+}
 @media (max-width: 860px) {
   
   /* Responsive navbar and effects */

@@ -129,13 +129,13 @@ a{
     -webkit-animation-delay:  0s;
 }
 
-.content-container {
+.content-container-contact {
     height: 100vh;
 
 }
 
 
-.profile-container {
+.profile-container-contact {
 
     color: #333;
     display: flex;
@@ -161,7 +161,7 @@ a{
     border-radius: 8px;
 }
 
-.profile-image {
+.profile-image-contact {
     width: 150px;
     height: auto;
     border-radius: 50%;
