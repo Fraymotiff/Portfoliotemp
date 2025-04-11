@@ -69,14 +69,13 @@ a {
 }
 
 .sites {
-  display: grid;
 
   justify-content: center;
-
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-
-  margin-left: 10em;
+  align-content: center;
+  align-items: center;
+display: grid;
+width: min(90% 75em);
+grid-template-columns:  40% 40%;
 }
 
 .thumb {
