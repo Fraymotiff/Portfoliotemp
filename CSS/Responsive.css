@@ -80,7 +80,10 @@ body{
 }
 
 }
-@media (max-width: 860px) {
+
+
+
+@media (max-width: 915px) {
   
   /* Responsive navbar and effects */
 
@@ -226,7 +229,7 @@ body{
 
     justify-content: center;
     align-content: center;
-    align-items: center;
+    align-items: start;
   display: grid;
   width: min(90% 75em);
 
@@ -313,7 +316,7 @@ form {
 
  
   width: min(90% 75em);
-  grid-template-columns:  40% 40%;
+  grid-template-columns:  50% 50%;
   }
   
   .thumb{
@@ -332,7 +335,8 @@ form {
     align-items: center;
   display: grid;
   width: min(90% 75em);
-  grid-template-columns:  80% ;
+  grid-template-columns:  60% ;
+gap: 10px;
   }
   
 
